@@ -1,5 +1,5 @@
 
-  # Minimal Portfolio Website
+  Portfolio Website
 
   ## Running the code
 
