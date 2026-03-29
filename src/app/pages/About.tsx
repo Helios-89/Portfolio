@@ -27,14 +27,14 @@ const timeline = [
     year: '2015',
     title: 'Product Design Intern',
     company: 'P9 Design',
-    description: 'Contributed to concept development and prototyping for consumer product clients including Vicks, OXO, Braun, spanning ideation sketching, 3D modeling, and workshop prototyping/3D printing. ,
+    description: 'Contributed to concept development and prototyping for consumer product clients including Vicks, OXO, Braun, spanning ideation sketching, 3D modeling, and workshop prototyping/3D printing.',
     icon: Briefcase,
   },
   {
     year: '2013 - 2014',
     title: 'Watch Design Intern',
     company: 'Movado Group Inc.',
-    description: 'Specialized in analog watch design for Lacoste and Tommy Hilfiger brands, focusing on dial detail, trend research, and case development through illustration and 3D modeling',
+    description: 'Specialized in analog watch design for Lacoste and Tommy Hilfiger brands, focusing on dial detail, trend research, and case development through illustration and 3D modeling.',
     icon: Briefcase,
   },
   {
