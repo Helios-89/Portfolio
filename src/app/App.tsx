@@ -7,14 +7,14 @@ const PASSWORD = 'spongebob1428';
 
 export default function App() {
   const [unlocked, setUnlocked] = useState(() => {
-  return sessionStorage.getItem('unlocked') === 'true';
+  return localStorage.getItem('unlocked') === 'true';
 });
   const [input, setInput] = useState('');
   const [error, setError] = useState(false);
 
   const handleSubmit = () => {
     if (input === PASSWORD) {
-      sessionStorage.setItem('unlocked', 'true');
+      localStorage.setItem('unlocked', 'true');
       setUnlocked(true);
     } else {
       setError(true);

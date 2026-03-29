@@ -48,8 +48,8 @@ const timeline = [
 
 const awards = [
   { year: '2013', title: '1st Place Designs for Safety Competition: World Traffic Safety Symposium at the Annual New York Auto Show' },
-  { year: '2023', title: '1st Place Scuderia Ferrari Watch Design Competition for Movado Group Inc.' },
-  { year: '2022', title: 'Excellence in Industrial Design by Department of Art & Design at Montclair State University' },
+  { year: '2013', title: '1st Place Scuderia Ferrari Watch Design Competition for Movado Group Inc.' },
+  { year: '2015', title: 'Excellence in Industrial Design by Department of Art & Design at Montclair State University' },
 ];
 
 export function About() {
