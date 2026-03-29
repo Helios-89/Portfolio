@@ -3,7 +3,7 @@ import { RouterProvider } from 'react-router';
 import { router } from './routes';
 import { ThemeProvider } from './contexts/ThemeContext';
 
-const PASSWORD = 'design2026';
+const PASSWORD = 'spongebob1428';
 
 export default function App() {
   const [unlocked, setUnlocked] = useState(false);
