@@ -6,42 +6,42 @@ const timeline = [
     year: '2020 - Now',
     title: 'Head of Design - Tech',
     company: 'American Exchange Group',
-    description: 'Leading design initiatives for enterprise SaaS products, managing a team of 4 designers.',
+    description: 'Lead Product Designer overseeing end-to-end design across hardware, CMF, packaging, UX/UI, and digital assets for a range of consumer tech products including smartwatches, smart glasses, and other tech accessories.',
     icon: Briefcase,
   },
   {
     year: '2018 - 2020',
     title: 'Industrial Design Consultant',
     company: 'Self Employed',
-    description: 'Designed end-to-end experiences for mobile and web applications across various industries.',
+    description: 'Independent Design Consultant delivering product photography, brand photography, packaging design, product design, and e-commerce solutions including website and store design and setup for client.',
     icon: Briefcase,
   },
   {
     year: '2016 - 2018',
     title: 'Watch Designer',
     company: 'MZ Berger',
-    description: 'Created user interfaces and design systems for early-stage startups.',
+    description: 'Designed analog watches, wall clocks, and some jewelry, with a focus on detail-oriented design and trend-driven aesthetics.',
     icon: Briefcase,
   },
   {
     year: '2015',
     title: 'Product Design Intern',
     company: 'P9 Design',
-    description: 'Created user interfaces and design systems for early-stage startups.',
+    description: 'Contributed to concept development and prototyping for consumer product clients including Vicks, OXO, Braun, spanning ideation sketching, 3D modeling, and workshop prototyping/3D printing. ,
     icon: Briefcase,
   },
   {
     year: '2013 - 2014',
     title: 'Watch Design Intern',
     company: 'Movado Group Inc.',
-    description: 'Created user interfaces and design systems for early-stage startups.',
+    description: 'Specialized in analog watch design for Lacoste and Tommy Hilfiger brands, focusing on dial detail, trend research, and case development through illustration and 3D modeling',
     icon: Briefcase,
   },
   {
     year: '2011 - 2015',
     title: 'BFA in Industrial Design',
     company: 'Montclair State University',
-    description: 'Focused on indsutrial design, human ergonomics, 3D modeling and prototyping.',
+    description: 'Focused on indsutrial design fundamentals including human factors and ergonomics, form development, CMF, design process and methodology, 3D modeling and prototyping.',
     icon: GraduationCap,
   },
 ];
@@ -78,13 +78,13 @@ export function About() {
           {/* Right Column - Bio */}
           <div className="md:col-span-3 space-y-6">
             <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-              I'm a product designer with over 12 years of experience creating intuitive digital products that solve real problems. My approach combines strategic thinking with meticulous attention to detail.
+              I'm a product designer with over a decade of experience across physical and digital products. My work spans industrial design, UX and UI, from analog watches and consumer electronics to smartwatch interfaces and mobile apps. I have always been drawn to the full product lifecycle, from idea to user experience.
             </p>
             <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-              I believe great design is invisible—it should empower users without getting in their way. My work spans mobile apps, web platforms, and design systems, always with a focus on accessibility and user delight.
+              My industrial design foundation shapes how I approach digital work. I think about products as whole systems, where details matter as much as the big picture, and where user experiences are considered at every level.
             </p>
             <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-              When I'm not designing, you'll find me exploring new coffee shops, sketching in my notebook, or staying up to date with the latest design trends and technologies.
+              I believe that good design, whether physical or digital, is grounded in the same principle: understanding how people naturally interact with the world around them. Form and function should always serve the same purpose, to create and effortless experience, regardless of what the product is.
             </p>
           </div>
         </div>
