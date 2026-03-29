@@ -5,37 +5,37 @@ import { ArrowUpRight } from 'lucide-react';
 const featuredProjects = [
   {
     id: 1,
-    title: 'FinTech Mobile App',
+    title: 'Weather Widget',
     category: 'Mobile Design',
     image: 'https://images.unsplash.com/photo-1630734242356-a6f858790740?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBwcm9kdWN0JTIwcHJvdG90eXBlJTIwc2tldGNofGVufDF8fHx8MTc3MjQyMjEwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
   {
     id: 2,
-    title: 'Smart Home Dashboard',
+    title: 'Translator App',
     category: 'UI/UX Design',
     image: 'https://images.unsplash.com/photo-1677506048148-0c914dd8197b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGVhbiUyMGRlc2lnbiUyMHRoaW5raW5nJTIwcHJvY2Vzc3xlbnwxfHx8fDE3NzI0MjIxMDF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
   {
     id: 3,
-    title: 'E-Commerce Redesign',
+    title: 'Onboarding Flow',
     category: 'Product Design',
     image: 'https://images.unsplash.com/photo-1725267196915-7700df784ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwaW50ZXJmYWNlJTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc3MjQyMjEwM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
   {
     id: 4,
-    title: 'SaaS Platform Interface',
+    title: 'Product Configurator',
     category: 'Web Design',
     image: 'https://images.unsplash.com/photo-1642286941365-89da3e29c0a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB1c2VyJTIwZXhwZXJpZW5jZSUyMHdpcmVmcmFtZXxlbnwxfHx8fDE3NzI0MjIxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
   {
     id: 5,
-    title: '3D CAD',
+    title: 'Neighborhood Tool',
     category: 'Product Design',
     image: 'https://images.unsplash.com/photo-1642286941365-89da3e29c0a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB1c2VyJTIwZXhwZXJpZW5jZSUyMHdpcmVmcmFtZXxlbnwxfHx8fDE3NzI0MjIxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
   {
     id: 6,
-    title: 'E-Commerce Redesign',
+    title: 'Industrial Design Work',
     category: 'Product Design',
     image: 'https://images.unsplash.com/photo-1725267196915-7700df784ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwaW50ZXJmYWNlJTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc3MjQyMjEwM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
