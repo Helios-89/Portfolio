@@ -133,7 +133,7 @@ export function Contact() {
                 </a>
 
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Helios-89"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors group"

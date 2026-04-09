@@ -45,7 +45,7 @@ export function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <div className="min-h-screen flex items-center justify-center px-8">
+      <div className="flex items-start justify-center px-8 pt-24 pb-35">
         <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16 items-center">
           {/* Text Content */}
           <div className="space-y-6">
@@ -53,19 +53,19 @@ export function Home() {
               <p className="text-sm tracking-widest text-gray-500 dark:text-gray-400 uppercase">Product Designer</p>
               <h1 className="text-6xl dark:text-white">Noemi Nagy</h1>
             </div>
-            <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
+            <p className="text-xl text-balance text-gray-600 dark:text-gray-300 leading-relaxed">
               A product designer with an industrial design foundation, bringing a rare depth of systems thinking and human-centered craft to products from concept to experience. I design experiences built around clarity and function, from first interaction to final detail.
             </p>
             <div className="flex gap-4 pt-4">
               <a
                 href="/projects"
-                className="px-8 py-3 bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors"
+                className="px-8 py-3 border border-black bg-black dark:bg-white text-white dark:text-black hover:bg-white hover:text-black hover:border-white dark:hover:bg-gray-900 dark:hover:text-white transition-colors"
               >
                 View Projects
               </a>
               <a
                 href="/contact"
-                className="px-8 py-3 border border-black dark:border-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors dark:text-white"
+                className="px-8 py-3 border border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors dark:text-white"
               >
                 Get in Touch
               </a>
@@ -73,7 +73,7 @@ export function Home() {
           </div>
 
           {/* Hero Image */}
-          <div className="relative h-[500px] overflow-hidden">
+          <div className="relative h-[350px] overflow-hidden">
             <ImageWithFallback
               src="https://images.unsplash.com/photo-1755985022555-09c0ec136e95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwcHJvZHVjdCUyMGRlc2lnbiUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NzI0MjIxMDB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
               alt="Minimalist workspace"

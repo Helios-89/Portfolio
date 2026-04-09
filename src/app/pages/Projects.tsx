@@ -49,7 +49,7 @@ const projects = [
 export function Projects() {
   return (
     <div className="min-h-screen pt-24 px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-16">
           <p className="text-sm tracking-widest text-gray-500 dark:text-gray-400 uppercase mb-2">Selected Work</p>
@@ -57,7 +57,7 @@ export function Projects() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
             <div
               key={project.id}

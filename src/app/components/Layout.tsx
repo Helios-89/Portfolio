@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Outlet, Link, useLocation } from 'react-router';
 import { Menu, X, Home, Briefcase, Award, User, Mail, Moon, Sun } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
+
 
 const navItems = [
   { path: '/', label: 'Home', icon: Home },
@@ -15,6 +16,9 @@ export function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const { theme, toggleTheme } = useTheme();
+  useEffect(() => {
+  window.scrollTo(0, 0);
+}, [location.pathname]);
 
   const isActive = (path: string) => {
     if (path === '/') return location.pathname === '/';
@@ -23,7 +27,45 @@ export function Layout() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
-      {/* Theme Toggle Button */}
+      {/* Hamburger Menu Button */}
+      <button
+  onClick={() => setIsMenuOpen(!isMenuOpen)}
+  className="fixed top-8 right-8 z-50 p-2 flex flex-col justify-center items-center w-10 h-10 rounded-full hover:scale-115 transition-transform duration-200"
+  aria-label="Toggle menu"
+>
+  <span className={`block w-6 h-0.5 my-0.5 rounded-full scale-115 bg-black dark:bg-white transition-all duration-330 ${
+    isMenuOpen ? 'rotate-45 translate-y-2' : ''
+  }`} />
+  <span className={`block w-6 h-0.5 my-0.5 rounded-full scale-115 bg-black dark:bg-white transition-all duration-330 my-1 ${
+    isMenuOpen ? 'opacity-0 scale-x-0' : ''
+  }`} />
+  <span className={`block w-6 h-0.5 my-0.5 rounded-full scale-115 bg-black dark:bg-white transition-all duration-330 ${
+    isMenuOpen ? '-rotate-45 -translate-y-2' : ''
+  }`} />
+</button>
+
+      {/* Slide-out Menu */}
+      <div
+        className={`fixed top-0 right-0 h-full w-80 bg-white dark:bg-gray-900 shadow-2xl z-40 transition-transform duration-300 ${
+          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
+        <nav className="flex flex-col gap-1 p-10 mt-15">
+          {navItems.map((item) => (
+            <Link
+              key={item.path}
+              to={item.path}
+              onClick={() => setIsMenuOpen(false)}
+              className={`text-2xl py-2 transition-all ${
+                isActive(item.path)
+                  ? 'text-black dark:text-white'
+                  : 'text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'
+              }`}
+            >
+              {item.label}
+            </Link>
+          ))}
+          {/* Theme Toggle Button */}
       <button
         onClick={toggleTheme}
         className="fixed top-8 left-8 z-50 p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors group"
@@ -43,37 +85,6 @@ export function Layout() {
           </div>
         </div>
       </button>
-
-      {/* Hamburger Menu Button */}
-      <button
-        onClick={() => setIsMenuOpen(!isMenuOpen)}
-        className="fixed top-8 right-8 z-50 p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors text-black dark:text-white"
-        aria-label="Toggle menu"
-      >
-        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-      </button>
-
-      {/* Slide-out Menu */}
-      <div
-        className={`fixed top-0 right-0 h-full w-80 bg-white dark:bg-gray-900 shadow-2xl z-40 transition-transform duration-300 ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
-      >
-        <nav className="flex flex-col gap-2 p-12 mt-20">
-          {navItems.map((item) => (
-            <Link
-              key={item.path}
-              to={item.path}
-              onClick={() => setIsMenuOpen(false)}
-              className={`text-2xl py-3 transition-all ${
-                isActive(item.path)
-                  ? 'text-black dark:text-white'
-                  : 'text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'
-              }`}
-            >
-              {item.label}
-            </Link>
-          ))}
         </nav>
       </div>
 
