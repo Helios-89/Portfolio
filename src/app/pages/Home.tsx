@@ -6,7 +6,7 @@ const featuredProjects = [
   {
     id: 1,
     title: 'Weather Widget',
-    category: 'Mobile Design',
+    category: 'UI Design',
     image: 'https://images.unsplash.com/photo-1630734242356-a6f858790740?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBwcm9kdWN0JTIwcHJvdG90eXBlJTIwc2tldGNofGVufDF8fHx8MTc3MjQyMjEwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
   {
@@ -18,25 +18,25 @@ const featuredProjects = [
   {
     id: 3,
     title: 'Onboarding Flow',
-    category: 'Product Design',
+    category: 'UX Design',
     image: 'https://images.unsplash.com/photo-1725267196915-7700df784ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwaW50ZXJmYWNlJTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc3MjQyMjEwM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
   {
     id: 4,
     title: 'Product Configurator',
-    category: 'Web Design',
+    category: 'Interaction Design',
     image: 'https://images.unsplash.com/photo-1642286941365-89da3e29c0a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB1c2VyJTIwZXhwZXJpZW5jZSUyMHdpcmVmcmFtZXxlbnwxfHx8fDE3NzI0MjIxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
   {
     id: 5,
     title: 'Neighborhood Tool',
-    category: 'Product Design',
+    category: 'UX/UI Design',
     image: 'https://images.unsplash.com/photo-1642286941365-89da3e29c0a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB1c2VyJTIwZXhwZXJpZW5jZSUyMHdpcmVmcmFtZXxlbnwxfHx8fDE3NzI0MjIxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
   {
     id: 6,
     title: 'Industrial Design Work',
-    category: 'Product Design',
+    category: 'Industrial Design',
     image: 'https://images.unsplash.com/photo-1725267196915-7700df784ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwaW50ZXJmYWNlJTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc3MjQyMjEwM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
   },
 ];
@@ -59,7 +59,7 @@ export function Home() {
             <div className="flex gap-4 pt-4">
               <a
                 href="/projects"
-                className="px-8 py-3 border border-black bg-black dark:bg-white text-white dark:text-black hover:bg-white hover:text-black hover:border-white dark:hover:bg-gray-900 dark:hover:text-white transition-colors"
+                className="px-8 py-3 border border-black bg-black dark:bg-white text-white dark:text-black hover:bg-white hover:text-black hover:border-black dark:hover:bg-gray-900 dark:hover:text-white dark:hover:border-white transition-colors"
               >
                 View Projects
               </a>

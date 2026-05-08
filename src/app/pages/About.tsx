@@ -66,7 +66,7 @@ export function About() {
         <div className="grid md:grid-cols-5 gap-12 mb-20">
           {/* Left Column - Image */}
           <div className="md:col-span-2">
-            <div className="relative h-96 overflow-hidden bg-gray-100 dark:bg-gray-800">
+            <div className="relative h-110 overflow-hidden bg-gray-100 dark:bg-gray-800">
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1630734242356-a6f858790740?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBwcm9kdWN0JTIwcHJvdG90eXBlJTIwc2tldGNofGVufDF8fHx8MTc3MjQyMjEwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="About Alex Chen"

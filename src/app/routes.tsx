@@ -5,6 +5,7 @@ import { Projects } from "./pages/Projects";
 import { Skills } from "./pages/Skills";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
+import WeatherWidget from "./pages/WeatherWidget";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ export const router = createBrowserRouter([
       { path: "skills", Component: Skills },
       { path: "about", Component: About },
       { path: "contact", Component: Contact },
+      { path: "projects/weather-widget", Component: WeatherWidget },
     ],
   },
 ]);

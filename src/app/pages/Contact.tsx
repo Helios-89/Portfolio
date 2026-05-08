@@ -105,7 +105,7 @@ export function Contact() {
               <h2 className="text-2xl mb-6 dark:text-white">Direct Contact</h2>
               <div className="space-y-4">
                 <a
-                  href="mailto:alex.chen@email.com"
+                  href="mailto:nagyn927@gmail.com"
                   className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors group"
                 >
                   <div className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center group-hover:bg-black dark:group-hover:bg-white group-hover:text-white dark:group-hover:text-black transition-colors">

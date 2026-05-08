@@ -26,15 +26,15 @@ import {
 } from 'lucide-react';
 
 const tools = [
-  { name: 'Adobe Illustrator', icon: PenTool },
-  { name: 'Adobe Photoshop', icon: Image },
-  { name: 'SolidWorks', icon: Box },
-  { name: 'Keyshot', icon: Camera },
-  { name: 'Figma', icon: Figma },
-  { name: 'HTML', icon: Code },
-  { name: 'CSS', icon: Palette },
-  { name: 'VS Code', icon: Code2 },
-  { name: 'Docker', icon: Package },
+  { name: 'Adobe Illustrator', src: '/icons/illustrator.svg' },
+  { name: 'Adobe Photoshop', src: '/icons/photoshop.svg' },
+  { name: 'SolidWorks', src: '/icons/solidworks.svg' },
+  { name: 'Keyshot', src: '/icons/keyshot.svg' },
+  { name: 'Figma', src: '/icons/figma.svg' },
+  { name: 'HTML', src: '/icons/html.svg' },
+  { name: 'CSS', src: '/icons/css.svg' },
+  { name: 'VS Code', src: '/icons/vscode.svg' },
+  { name: 'Tailwind', src: '/icons/tailwind.svg' },
   { name: 'AWS', icon: Cloud },
 ];
 
@@ -74,17 +74,25 @@ export function Skills() {
           <h2 className="text-3xl mb-8 dark:text-white">Tools</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {tools.map((tool, idx) => {
-              const Icon = tool.icon;
-              return (
-                <div
-                  key={idx}
-                  className="flex flex-col items-center justify-center p-6 bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors group"
-                >
-                  <Icon size={32} className="text-gray-700 dark:text-gray-300 mb-3 group-hover:scale-110 transition-transform" />
-                  <span className="text-sm text-center dark:text-gray-200">{tool.name}</span>
-                </div>
-              );
-            })}
+  const Icon = tool.icon;
+  return (
+    <div
+      key={idx}
+      className="flex flex-col items-center justify-center p-6 transition-colors group"
+    >
+      {tool.src ? (
+        <img
+          src={tool.src}
+          alt={tool.name}
+          className="w-12 h-12 mb-4 transition-transform"
+        />
+      ) : (
+        <Icon size={32} className="text-gray-700 dark:text-gray-300 mb-3 transition-transform" />
+      )}
+      <span className="text-sm text-center dark:text-gray-200">{tool.name}</span>
+    </div>
+  );
+})}
           </div>
         </div>
 
@@ -97,10 +105,10 @@ export function Skills() {
               return (
                 <div
                   key={idx}
-                  className="flex items-center gap-4 p-4 bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors group"
+                  className="flex items-center gap-4 p-4 transition-colors group"
                 >
                   <div className="flex-shrink-0">
-                    <Icon size={24} className="text-gray-700 dark:text-gray-300 group-hover:scale-110 transition-transform" />
+                    <Icon size={24} className="text-gray-700 dark:text-gray-300 transition-transform" />
                   </div>
                   <span className="text-sm dark:text-gray-200">{skill.name}</span>
                 </div>

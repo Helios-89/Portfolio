@@ -1,0 +1,26 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_26_681)">
+<circle cx="20" cy="19.7092" r="19.6286" fill="#C8C8C9"/>
+<mask id="mask0_26_681" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="0" width="39" height="40">
+<circle cx="11.1193" cy="16.6012" r="7.14144" fill="#B9C0CE"/>
+<circle cx="33.6427" cy="33.9334" r="5.9859" fill="#B9C0CE"/>
+<circle cx="14.6971" cy="4.09415" r="3.56363" fill="#B9C0CE"/>
+<circle cx="24.5496" cy="25.7059" r="4.25449" fill="#B9C0CE"/>
+<circle cx="34.6383" cy="12.2911" r="3.28717" fill="#B9C0CE"/>
+<circle cx="14.0198" cy="29.96" r="3.28717" fill="#B9C0CE"/>
+<circle cx="22.2298" cy="11.3237" r="2.31978" fill="#B9C0CE"/>
+<circle cx="19.6425" cy="34.883" r="1.6357" fill="#B9C0CE"/>
+<circle cx="3.17047" cy="24.2312" r="1.6357" fill="#B9C0CE"/>
+<circle cx="22.9139" cy="3.40303" r="1.6357" fill="#B9C0CE"/>
+<circle cx="33.6427" cy="23.743" r="2.29157" fill="#B9C0CE"/>
+</mask>
+<g mask="url(#mask0_26_681)">
+<circle cx="20" cy="19.7092" r="19.6286" fill="#A5A7A9"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_26_681">
+<rect width="40" height="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>
